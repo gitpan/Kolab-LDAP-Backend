@@ -49,7 +49,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = '0.9';
+our $VERSION = sprintf('%d.%02d', q$Revision: 1.1.1.1 $ =~ /(\d+)\.(\d+)/);
 
 sub load
 {
